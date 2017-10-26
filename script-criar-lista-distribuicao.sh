@@ -1,14 +1,15 @@
 #!/bin/bash
 ZMPROV="/opt/zimbra/bin/zmprov"
 date > tempo_criar_lista.txt
+PATCH=/mnt/backup/WEBMAIL/listas
 
-for LISTA in $(cat /tmp/listas/ld/distlist.tmp); do
+for LISTA in $(cat $PATCH/distlist.tmp); do
 
 	#Criar listas
   $ZMPROV cdl "$LISTA"
 
-  
-	for CONTA in $(cat /tmp/listas/"$LISTA");do
+
+	for CONTA in $(cat  $PATCH/"$LISTA");do
 	     #adcionar conta na lista
     	 $ZMPROV  adlm  "$LISTA" "$CONTA"
   done
