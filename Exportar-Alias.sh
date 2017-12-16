@@ -4,12 +4,10 @@
 #e-mail : jefersonaraujo95@gmail.com
 
 for i in $(cat lista-all); do
-
-   ALIAS=$(/opt/zimbra/bin/zmprov ga $i | grep MailAlias | cut -d " " -f2);
-   if [ -n $TESTE ];then
-   echo "vazio" >> ALIAS/$i/$ALIAS;
-
-   fi
-
+  ALIAS=$(/opt/zimbra/bin/zmprov ga $i | grep MailAlias |  awk '{print $2}');
+  echo "$ALIAS" >> ALIAS/$i;
 
 done
+
+echo "REMOVENDO ARQUIVOS VAZIOS"
+find ALIAS/ -type f -size 1c -exec rm {} \;
