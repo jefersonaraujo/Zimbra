@@ -1,7 +1,7 @@
 #!/bin/bash
 date > tempo_gerar_lista.txt
 ZMPROV="/opt/zimbra/bin/zmprov"
-PATCH=/mnt/backup/WEBMAIL/listas
+PATCH=/tmp
 
 mkdir -p $PATCH
 
