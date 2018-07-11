@@ -30,3 +30,20 @@ zmprov ma rcarvalho@limnos.com.br zimbraAccountStatus active
 
 #### Bloquear conta
 zmprov ma user@dominio zimbraAccountStatus locked
+
+
+#### Criar encaminhamento
+zmprov ma a@example.com +zimbraMailForwardingAddress x@domain.com
+ 
+#### Limpa todas as filas
+/opt/zimbra/postfix/sbin/postsuper -d ALL deferred
+
+#### Limpa fila de emails adiados
+/opt/zimbra/postfix/sbin/postsuper -c  -d ALL deferred
+
+#### Criar alias
+zmprov aaa conta@dominio.com.br alias@dominio.com.br
+
+#### Criar lista de distribuição
+zmprov cdl lista@dominio.com.br
+
