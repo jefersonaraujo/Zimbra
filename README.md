@@ -24,3 +24,9 @@ zmmailbox -z -m marcelo@netsol.com.br df <pasta
 #### Configurar o usuário como ADMIN
 zmprov ma futur-admin@domain.com zimbraIsAdminAccount TRUE
 
+#### Desbloquear conta
+zmprov ma user@dominio zimbraAccountStatus active
+zmprov ma rcarvalho@limnos.com.br zimbraAccountStatus active
+
+#### Bloquear conta
+zmprov ma user@dominio zimbraAccountStatus locked
