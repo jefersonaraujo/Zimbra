@@ -49,3 +49,15 @@ zmprov cdl lista@dominio.com.br
 
 ###
 
+
+### Example of a 421 error:
+
+421 4.7.0 [167.89.55.59 15] Our system has detected that this message is suspicious
+
+due to the nature of the content and/or the links within. To best protect our users from spam,
+
+the message has been blocked. Please visit https://support.google.com/mail/answer/188131
+
+for more information. u22si16671234pfl.244 - gsmtp
+
+
