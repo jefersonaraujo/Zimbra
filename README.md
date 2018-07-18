@@ -181,5 +181,14 @@ host gmail-smtp-in.l.google.com [173.194.71.26]:
 555, “5.5.2”, Syntax error.
 
 
+How to Request Removal from Gmail's Blacklist
+The best way to get your IP out if the Google blacklist is by filling the form on this page: Report a delivery problem between your domain and Gmail
 
+Once the form is submitted it takes 3-7 days for the process to take place. You may not hear back from Gmail, but your emails will start reaching Gmail users once you have fixed the issue you were blacklisted for.
+
+In case you send legitimate bulk emails and get bounces with the 400 error code, then you need to go through the Google's Bulk Sender Guidelines and then complete the Bulk Sender Contact Form
+
+Also, it is recommended that you sign up for a Google postmaster account and check your sending domain reputation with Google. You will get access to several dashboards: Spam Rate Dashboard, Domain and IP Reputation Dashboard, Feedback Loop Dashboard (only for senders who implemented the Gmail Spam Feedback Loop), Authentication Dashboard, Delivery Errors Dashboard.
+
+And it is important that you stick to the best email marketing practices to make sure the IP does not get blacklisted in the first place.
 
