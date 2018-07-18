@@ -47,9 +47,9 @@ zmprov aaa conta@dominio.com.br alias@dominio.com.br
 #### Criar lista de distribuição
 zmprov cdl lista@dominio.com.br
 
-###
 
 
+## Google(gmail)
 ### Example of a 421 error:
 
 421 4.7.0 [167.89.55.59 15] Our system has detected that this message is suspicious
@@ -59,5 +59,21 @@ due to the nature of the content and/or the links within. To best protect our us
 the message has been blocked. Please visit https://support.google.com/mail/answer/188131
 
 for more information. u22si16671234pfl.244 - gsmtp
+
+### Example of a 550 error:
+
+SMTP error from remote mail server after end of data:
+
+host gmail-smtp-in.l.google.com [173.194.71.26]:
+
+550-5.7.1 [194.XXX.XXX.181] Our system has detected an unusual rate of
+
+550-5.7.1 unsolicited mail originating from your IP address. To protect our
+
+550-5.7.1 users from spam, mail sent from your IP address has been blocked.
+
+550-5.7.1 Please visit http://www.google.com/mail/help/bulk_mail.html to review
+
+550 5.7.1 our Bulk Email Senders Guidelines. k8si8849879lbl.62
 
 
