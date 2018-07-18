@@ -110,6 +110,75 @@ host gmail-smtp-in.l.google.com [173.194.71.26]:
 454, “4.7.0”, Cannot authenticate due to temporary system problem.
 
 454, “5.5.1”, STARTTLS may not be repeated.
+501, “5.5.2”, Cannot Decode response.
+
+502, “5.5.1”, Too many unrecognized commands, goodbye.
+
+502, “5.5.1”, Unimplemented command.
+
+502, “5.5.1”, Unrecognized command.
+
+503, “5.5.1”, “EHLO/HELO first.
+
+503, “5.5.1”, MAIL first.
+
+503, “5.5.1”, RCPT first.
+
+503, “5.7.0”, No identity changes permitted.
+
+504, “5.7.4”, Unrecognized Authentication Type.
+
+530, “5.5.1”, Authentication Required.
+
+530, “5.7.0”, Must issue a STARTTLS command first.
+
+535, “5.5.4”, Optional Argument not permitted for that AUTH mode.
+
+535, “5.7.1”, Application-specific password required.
+
+535, “5.7.1”, Please log in with your web browser and then try again.
+
+535, “5.7.1”, Username and Password not accepted.
+
+550, “5.1.1”, The email account that you tried to reach does not exist. Please try double-checking the recipient’s email address for typos or unnecessary spaces.
+
+550, “5.2.1”, The email account that you tried to reach is disabled.
+
+550, “5.2.1”, The user you are trying to contact is receiving mail at a rate that prevents additional messages from being delivered.
+
+550, “5.4.5”, Daily sending quota exceeded.
+
+550, “5.7.0”, Mail relay denied.
+
+550, “5.7.0”, Mail Sending denied.
+
+550, “5.7.1”, Email quota exceeded.
+
+550, “5.7.1”, Invalid credentials for relay.
+
+550, “5.7.1”, Our system has detected an unusual rate of unsolicited mail originating from your IP address.
+
+550, “5.7.1”, Our system has detected that this message is likely unsolicited mail. To reduce the amount of spam sent to Gmail, this message has been blocked.
+
+550, “5.7.1”, The IP you’re using to send mail is not authorized to send email directly to our servers. Please use the SMTP relay at your service provider instead.
+
+550, “5.7.1”, The user or domain that you are sending to (or from) has a policy that prohibited the mail that you sent. Please contact your domain administrator for further details.
+
+550, “5.7.1”, Unauthenticated email is not accepted from this domain.
+
+552, “5.2.2”, The email account that you tried to reach is over quota.
+
+552, “5.2.3”, Your message exceeded Google’s message size limits.
+
+553, “5.1.2”, We weren’t able to find the recipient domain. Please check for any spelling errors, and make sure you didn’t enter any spaces, periods, or other punctuation after the recipient’s email address.
+
+554, “5.6.0”, Mail message is malformed. Not accepted.
+
+554, “5.6.0”, Message exceeded 50 hops, this may indicate a mail loop.
+
+554, “5.7.0”, Too Many Unauthenticated commands.
+
+555, “5.5.2”, Syntax error.
 
 
 
