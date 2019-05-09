@@ -17,7 +17,7 @@ for i in `seq 1 $max`; do
                 MAIL=$(cat bkp-contas.txt | head -n $i | tail -n 1)
 
                 #exportar os arquivos da conta
-                $ZMMAILBOX  $MAIL getRestURL "//?fmt=tgz" >   $CAM/$MAIL/$MAIL.$date-$date2.tgz
+                $ZMMAILBOX  $MAIL getRestURL "//?fmt=tgz$query" >   $CAM/$MAIL/$MAIL.$date-$date2.tgz
                 echo $MAIL >> exports-conta.log;
 
 done

@@ -1,9 +1,6 @@
 #!/bin/bash
 
-
-
-
-for linha in $(cat /opt/contas/alias.txt); do
+for linha in $(cat alias.txt); do
 
  MAIL=$($linha	grep zimbraMailAlias | awk -F " " '{print $1}')
  ALIAS=$($linha	grep zimbraMailAlias | awk -F " " '{print $3}')
@@ -13,9 +10,3 @@ for linha in $(cat /opt/contas/alias.txt); do
 
 
 done
-
-
-
-
-
-
